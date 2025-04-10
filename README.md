@@ -1,42 +1,44 @@
-# Slim Framework 4 Skeleton Application
+# PROJETO PRÁTICO PHP
 
-[![Coverage Status](https://coveralls.io/repos/github/slimphp/Slim-Skeleton/badge.svg?branch=master)](https://coveralls.io/github/slimphp/Slim-Skeleton?branch=master)
+- Nome: Layssa Matos Dos Santos
+- E-mail: layssamatos8@gmail.com
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 4 application. This application uses the latest Slim 4 with Slim PSR-7 implementation and PHP-DI container implementation. It also uses the Monolog logger.
+## ✨ Características
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+- Baseado no **Slim Framework 4**
+- PSR-7 e Middleware nativo
+- Injeção de dependências com **PHP-DI**
+- Logging com **Monolog**
+- Autoload com **PSR-4**
+- Pronto para testes com **PHPUnit** e **PHPStan**
+- Scripts integrados para desenvolvimento e testes
 
-## Install the Application
+## 🚀 Requisitos
 
-Run this command from the directory in which you want to install your new Slim Framework application. You will require PHP 7.4 or newer.
+- PHP ^7.4 ou ^8.0
+- Composer
+- Extensão JSON do PHP (`ext-json`)
 
-```bash
-composer create-project slim/slim-skeleton [my-app-name]
-```
+## 📦 Instalação
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
+- Clone o repositório e instale as dependências:
 
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writable.
+  ```sh
+  git clone https://github.com/seu-usuario/seu-repo.git
 
-To run the application in development, you can run these commands 
+  cd seu-repo
 
-```bash
-cd [my-app-name]
-composer start
-```
+  composer install
 
-Or you can use `docker-compose` to run the app with `docker`, so you can run these commands:
-```bash
-cd [my-app-name]
-docker-compose up -d
-```
-After that, open `http://localhost:8080` in your browser.
+## ▶️ Executando o servidor local
 
-Run this command in the application directory to run the test suite
+   
+    composer start
 
-```bash
-composer test
-```
+- A aplicação estará disponível em http://localhost:8080
 
-That's it! Now go build something cool.
+## 🧪 Testes
+
+Execute os testes com:
+
+    composer test
